@@ -5,7 +5,7 @@ import java.util.List;
 import java.util.UUID;
 
 import org.springframework.stereotype.Service;
-import com.jwt.example.jwt.models.*;
+import com.jwt.example.jwt.models.User;
 @Service
 public class UserService {
 	private List<User> store=new ArrayList<>();
